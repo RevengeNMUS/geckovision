@@ -1,0 +1,29 @@
+[project]
+name = "Gecko-Vision"
+version = "3.3.3"
+description = "A simple \"wrapper\" for OpenCV, allowing easy Haar Cascade object identification"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+authors = [
+    {name = "Jesse G"},
+    {name = "Nathan M"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "opencv-python"
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/RevengeNMUS/geckovision"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/geckovision"]

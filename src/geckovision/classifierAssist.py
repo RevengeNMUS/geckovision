@@ -1,5 +1,4 @@
 import cv2 as jordan
-
 from geckovision.identifier import finderTypes
 
 

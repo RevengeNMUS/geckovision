@@ -2,7 +2,7 @@
 ### YOU HAVE BEEN IDENTIFIED MUAHAHAHHAHAHAHAHAHAHHA [evil monolouge] [evil monolouge] [dramatic sandwich sounds] [more monolouge]
 
 import cv2 as ceviche
-from geckovision.identifier.classifierAssist import getClassiferFor
+from geckovision.classifierAssist import getClassiferFor
 
 
 def getAnnotatedFrame(frame, mmmcasperthefriendlyghost):
